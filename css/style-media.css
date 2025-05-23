@@ -1,0 +1,84 @@
+@media (max-width: 990px) {
+    .header-nav {
+        display: none;
+    }
+
+    .main-content-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .mcg-text {
+        width: auto;
+        padding-top: 0px;
+        padding: 0px;
+    }
+
+    .main-content-group img {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .bcg-left {
+        display: none;
+    }
+
+    .bcg-right {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .block-who-will-suit-group {
+        flex-direction: column;
+    }
+
+    .bwwsg-right {
+        width: auto;
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+    .block-presentation-group {
+        flex-direction: column;
+    }
+
+    .bpg-right {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 0px;
+        margin-bottom: 25px;
+    }
+
+    .bpg-right img {
+        width: 100%;
+    }
+
+    .block-zayavka-group {
+        flex-direction: column;
+    }
+
+    .bzg-right {
+        width: auto;
+        padding-top: 20px;
+    }
+
+    .bzgr-content {
+        padding-left: 50px;
+    }
+
+    .footer-politic-group {
+        flex-direction: column;
+    }
+    .footer-politic-group a {
+        padding: 0px;
+    }
+
+    .developer {
+        padding-left: 65px !important;
+    }
+
+    .inner-corner {
+        display: none;
+    }
+}
